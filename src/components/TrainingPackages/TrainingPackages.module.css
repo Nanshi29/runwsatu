@@ -1,0 +1,74 @@
+.pkg_wrapper {
+  margin-top: 10vh;
+}
+.pkg_header {
+  font-size: 50px;
+  font-weight: 700;
+  /* margin-left: 8vw; */
+  text-align: center;
+}
+.pkg_tagline {
+  font-family: Ubuntu;
+  text-align: center;
+  font-size: 20px;
+}
+.pkg_container {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pkg_box {
+  width: 24%;
+  border: 1px solid;
+  margin-left: 3px;
+  padding: 10px;
+  background-color: #090909;
+  color: white;
+  min-height: 90vh;
+  height: auto;
+}
+.box_header {
+  font-family: Raleway;
+  color: red;
+  font-weight: 700;
+  font-size: 27px;
+}
+.box_tag {
+  font-family: Ubuntu;
+  text-align: center;
+}
+.box_list {
+  font-size: 13px;
+}
+.pkg_register {
+  text-align: center;
+
+  justify-content: flex-end;
+}
+.pkg_register > a {
+  text-decoration: none;
+  color: red;
+  font-size: 17px;
+}
+.pkg_register :hover {
+  font-size: 20px;
+  transition: 0.1ms;
+}
+.pkg_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.pkg_btn > button {
+  background-color: #f73509;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

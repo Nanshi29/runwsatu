@@ -1,0 +1,41 @@
+.about_container {
+  display: flex;
+  /* width: 90%; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 12vh;
+  font-family: Raleway;
+  /* background-color: lightgray; */
+}
+.about_left {
+  width: 50%;
+  margin-left: 10vw;
+}
+.about_right {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4vw;
+  /* border: 1px solid; */
+}
+.abt_header {
+  font-weight: 700;
+  font-size: 50px;
+}
+.abt_tag {
+  font-weight: 700;
+  font-size: 16px;
+}
+.abt_para {
+  font-family: Ubuntu;
+  font-size: 16px;
+}
+.abt_leftcont {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.insta_icon {
+  font-size: 50px;
+  text-align: center;
+}

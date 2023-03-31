@@ -1,0 +1,25 @@
+.logo {
+}
+.nav_links {
+  display: flex;
+  /* justify-content: space-around; */
+  margin-right: 25px;
+}
+.nav_links > li {
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+  font-family: Raleway;
+}
+
+.nav_links > li > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}

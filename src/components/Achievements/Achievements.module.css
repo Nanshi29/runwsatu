@@ -1,0 +1,26 @@
+.ach_wrapper {
+  margin-top: 10vh;
+}
+
+/* url("http://runwithaman.in/wp-content/uploads/2022/03/runningBanner.jpg") */
+.ach_header {
+  font-size: 50px;
+  font-weight: 700;
+  /* margin-left: 8vw; */
+  text-align: center;
+}
+.ach_data {
+  display: flex;
+  gap: 80px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  font-size: 20px;
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 13vw;
+  height: 15vh;
+}
+.ach_time {
+  font-family: Ubuntu;
+  font-size: 15px;
+}

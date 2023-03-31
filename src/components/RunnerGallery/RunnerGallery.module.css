@@ -1,0 +1,27 @@
+.rng_header {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 6vh;
+  /* margin-left: 8vw; */
+  text-align: center;
+}
+.rng_wrapper {
+  margin-top: 8vh;
+  background-color: black;
+  color: white;
+}
+.rng_tagline {
+  margin-top: 3vh;
+  text-align: center;
+  font-family: Ubuntu;
+}
+.crsl_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.crsl_body {
+  margin-bottom: 7vh;
+  width: 50%;
+}

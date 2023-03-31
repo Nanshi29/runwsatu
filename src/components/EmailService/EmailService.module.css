@@ -1,0 +1,31 @@
+.contact_wrapper {
+  margin-top: 6vh;
+}
+.contact_header {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 6vh;
+  /* margin-left: 8vw; */
+  text-align: center;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.form_container {
+  display: flex;
+  justify-content: center;
+}
+.contact_form > label {
+  font-family: Ubuntu;
+  margin-top: 3vh;
+}
+
+.contact_form > input {
+  height: 5vh;
+}
+
+.contact_form > textarea {
+  height: 9vh;
+}
