@@ -25,3 +25,12 @@
   margin-bottom: 7vh;
   width: 50%;
 }
+
+@media only screen and (max-width: 600px){
+  .rng_header{
+    font-size: 38px;
+  }
+  .crsl_body{
+    width: 95%;
+  }
+}

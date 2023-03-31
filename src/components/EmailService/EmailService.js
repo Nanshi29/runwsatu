@@ -48,18 +48,8 @@ const EmailService = () => {
             "Loading..."
           ) : (
             <button
-              style={{
-                marginTop: "3vh",
-                cursor: "pointer",
-                width: "20%",
-                height: "4vh",
-                fontFamily: "Ubuntu",
-                fontSize: "15px",
-                backgroundColor: "red",
-                color: "white",
-                border: "none",
-              }}
               type="submit"
+              className={styles.frm_btn}
             >
               Send
             </button>

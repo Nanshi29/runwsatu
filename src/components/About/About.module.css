@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 12vh;
+  
   font-family: Raleway;
   /* background-color: lightgray; */
 }
@@ -31,11 +32,44 @@
   font-size: 16px;
 }
 .abt_leftcont {
-  width: 90%;
+  width: 100%;
+  padding: 4px;
   justify-content: center;
   align-items: center;
 }
 .insta_icon {
   font-size: 50px;
   text-align: center;
+}
+.about_right > div > img{
+   width: 100%;
+  max-width: 600px;
+  height: auto;
+
+}
+
+@media only screen and (max-width: 900px){
+  .about_container{
+    flex-direction: column;
+  }
+  .abt_para{
+    font-family: Ubuntu;
+    font-size: 14px;
+  }
+  .about_left{
+    width: 95%;
+    margin-left: 0;
+  }
+  .about_right{
+    width: 95%;
+    margin-left: 0;
+  }
+  .about_right > div > img{
+   width: 95%;
+  max-width: 350px;
+  height: auto;
+  }
+  .abt_header{
+    font-size: 40px;
+  }
 }

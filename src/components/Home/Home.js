@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <div className={styles.home_overlay}>
+      <Navbar />
         <div className={styles.tagline}>
           <span>TRANSFORM | REFORM | REPEAT</span>
         </div>

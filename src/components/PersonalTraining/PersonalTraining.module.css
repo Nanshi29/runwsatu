@@ -51,3 +51,21 @@
 .glowing_button:hover {
   cursor: pointer;
 }
+@media only screen and (max-width: 600px){
+  .ptr_container{
+    flex-direction: column;
+  }
+  .ptr_text{
+    width: 95%;
+  }
+  .ptr_left{
+    width: 100%;
+  }
+  .ptr_right{
+    width: 100%;
+  }
+  .ptr_header{
+    font-size: 38px;
+  }
+
+}

@@ -61,25 +61,33 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className={styles.about_right}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection:"column"
+          }}
+        >
+          <img
+            src="https://i.ibb.co/PjhnK1H/Running-pic.jpg"
+            alt="Running Pic"
+          />
+          <div
+            style={{
+              fontWeight: "700",
+              fontSize: "20px",
+              marginTop: "2px",
+            }}
+          >
+            Satendra Singh
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
 export default About;
-// <div className={styles.about_right}>
-//         <div>
-//           <img
-//             src="https://i.ibb.co/PjhnK1H/Running-pic.jpg"
-//             alt="Running Pic"
-//           />
-//         </div>
-//         <div
-//           style={{
-//             fontWeight: "700",
-//             fontSize: "20px",
-//             marginTop: "2px",
-//           }}
-//         >
-//           Satendra Singh
-//         </div>
-//       </div>
+

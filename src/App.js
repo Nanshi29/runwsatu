@@ -11,6 +11,13 @@ function App() {
   return (
     <div>
       <Home />
+      <About />
+      <PersonalTraining />
+      <Achievements />
+      <TrainingPackages />
+      <RunnerGallery />
+      <EmailService />
+      <Footer />
     </div>
   );
 }

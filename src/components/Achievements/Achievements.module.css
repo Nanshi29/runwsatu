@@ -16,11 +16,22 @@
   font-weight: 800;
   font-size: 20px;
   align-items: center;
-  /* justify-content: center; */
-  margin-left: 13vw;
+  justify-content: center;
+  /* margin-left: 13vw; */
   height: 15vh;
 }
 .ach_time {
   font-family: Ubuntu;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 900px){
+  .ach_data{
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .ach_header{
+    font-size: 38px;
+  }
 }

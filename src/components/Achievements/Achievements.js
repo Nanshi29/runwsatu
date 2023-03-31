@@ -4,7 +4,7 @@ import styles from "./Achievements.module.css";
 const Achievements = () => {
   return (
     <div className={styles.ach_wrapper} id="achievements">
-      <div className={styles.ach_header}>MY ACHIEVEMENTS?</div>
+      <div className={styles.ach_header}>MY ACHIEVEMENTS</div>
       <hr style={{ width: "75%" }} />
       <div className={styles.ach_data}>
         <div>
@@ -31,8 +31,7 @@ const Achievements = () => {
         <span className={styles.ach_time}>60 KM Finisher</span>
         &nbsp;&nbsp;&nbsp;{" "}
         <span className={styles.ach_time}>75 KM Finisher</span>{" "}
-        &nbsp;&nbsp;&nbsp;{" "}
-        <span className={styles.ach_time}>100 KM Finisher</span>
+    
       </div>
     </div>
   );

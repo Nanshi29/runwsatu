@@ -7,3 +7,8 @@
   justify-content: space-evenly;
   height: 15vh;
 }
+@media only screen and (max-width: 600px){
+.footer_wrapper{
+flex-direction: column;
+}
+}
