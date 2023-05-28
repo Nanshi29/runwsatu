@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineFacebook } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -21,9 +21,9 @@ const About = () => {
           />
 
           <p className={styles.abt_para}>
-            Hi, My name is Aman Thukral and I started running about 8 years ago.
-            I started with walking and then walking long distance and did a few
-            sessions on a treadmill.
+            Hi, My name is Satendra Singh and I started running about 8 years
+            ago. I started with walking and then walking long distance and did a
+            few sessions on a treadmill.
             <br />
             <br />
             For me, 8 years ago running 2km non-stop was something very
@@ -44,11 +44,11 @@ const About = () => {
           <div className={styles.insta_icon}>
             {" "}
             <a
-              href="http://instagram.com"
+              href="https://www.facebook.com/satendra.singh.501598"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiOutlineInstagram
+              <AiOutlineFacebook
                 style={{
                   border: "1px solid",
                   borderRadius: "7px",
